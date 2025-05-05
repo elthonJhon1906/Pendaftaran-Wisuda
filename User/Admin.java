@@ -17,7 +17,7 @@ public class Admin extends Users
     private String jabatan;
     private String email;
     
-    public Admin(String nama, String nip, String alamat, String noHp, String jabatan, String email, String username, String password, String role){
+    public Admin(String nama, String nip, String alamat, String noHp, String jabatan, String email, String username, String password, Role role){
     super(nama, password, role);
     this.nama = nama;
     this.nip = nip;
