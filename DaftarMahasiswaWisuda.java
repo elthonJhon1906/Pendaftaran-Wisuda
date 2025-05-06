@@ -25,4 +25,21 @@ public class DaftarMahasiswaWisuda{
         return DaftarMahasiswa;
     }
     
+    public PendaftaranWisudaMahasiswa verifikasiDokumen(
+        Admin admin,
+        PendaftaranWisudaMahasiswa pendaftaran,
+        StatusPendaftaran status
+    ) {
+        int index = DaftarMahasiswa.indexOf(pendaftaran);
+        
+        if (index == -1) return null;
+        
+        PendaftaranWisudaMahasiswa p = DaftarMahasiswa.get(index);
+        PendaftaranWisudaMahasiswa baru = admin.verifikasiPendaftaran(p, status);
+        
+        DaftarMahasiswa.set(index, baru);
+        
+        return baru;
+    }
+    
 }

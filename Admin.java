@@ -1,4 +1,4 @@
-package User;
+ 
 
 
 /**
@@ -18,12 +18,21 @@ public class Admin extends Users
     private String email;
     
     public Admin(String nama, String nip, String alamat, String noHp, String jabatan, String email, String username, String password, Role role){
-    super(nama, password, role);
-    this.nama = nama;
-    this.nip = nip;
-    this.alamat = alamat;
-    this.noHp = noHp;
-    this.jabatan = jabatan;
-    this.email = email;
+        super(nama, password, role);
+        this.nama = nama;
+        this.nip = nip;
+        this.alamat = alamat;
+        this.noHp = noHp;
+        this.jabatan = jabatan;
+        this.email = email;
+    }
+    
+    public PendaftaranWisudaMahasiswa verifikasiPendaftaran(
+        PendaftaranWisudaMahasiswa pendaftaran,
+        StatusPendaftaran status
+    ) {
+        pendaftaran.verifikasiDokumen(this, status);
+    
+        return pendaftaran;
     }
 }

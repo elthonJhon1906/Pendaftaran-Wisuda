@@ -9,4 +9,6 @@ comment3.params=mahasiswa
 comment3.target=void\ removeMahasiswa(PendaftaranWisudaMahasiswa)
 comment4.params=
 comment4.target=java.util.ArrayList\ getAllMahasiswaWisuda()
-numComments=5
+comment5.params=admin\ pendaftaran\ status
+comment5.target=PendaftaranWisudaMahasiswa\ verifikasiDokumen(Admin,\ PendaftaranWisudaMahasiswa,\ StatusPendaftaran)
+numComments=6

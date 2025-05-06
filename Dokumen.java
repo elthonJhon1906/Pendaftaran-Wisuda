@@ -14,25 +14,25 @@ public class Dokumen{
     private String formulirDokumenWisuda;
     private String formulirPenyerahanKaryaIlmiah;
     
-    public Dokumen(String formulirPendaftaranWisuda, String formulirBiodataMahasiswa, String formulirBebasLaboratorium, String formulirSuratIkutSertaWisuda, String formulirDokumenWisuda, String formulirPenyerahanKaryaIlmiah){
-    this.formulirPendaftaranWisuda = formulirPendaftaranWisuda;
-    this.formulirBiodataMahasiswa = formulirBiodataMahasiswa;
-    this.formulirPermohonanBebasPustaka = formulirPermohonanBebasPustaka;
-    this.formulirBebasLaboratorium = formulirBebasLaboratorium;
-    this.formulirSuratIkutSertaWisuda = formulirSuratIkutSertaWisuda;
-    this.formulirDokumenWisuda = formulirDokumenWisuda;
-    this.formulirPenyerahanKaryaIlmiah = formulirPenyerahanKaryaIlmiah;
+    public Dokumen(String formulirPendaftaranWisuda, String formulirBiodataMahasiswa, String formulirPermohonanBebasPustaka, String formulirBebasLaboratorium, String formulirSuratIkutSertaWisuda, String formulirDokumenWisuda, String formulirPenyerahanKaryaIlmiah){
+        this.formulirPendaftaranWisuda = formulirPendaftaranWisuda;
+        this.formulirBiodataMahasiswa = formulirBiodataMahasiswa;
+        this.formulirPermohonanBebasPustaka = formulirPermohonanBebasPustaka;
+        this.formulirBebasLaboratorium = formulirBebasLaboratorium;
+        this.formulirSuratIkutSertaWisuda = formulirSuratIkutSertaWisuda;
+        this.formulirDokumenWisuda = formulirDokumenWisuda;
+        this.formulirPenyerahanKaryaIlmiah = formulirPenyerahanKaryaIlmiah;
     }
     
     public void displayDokumen(){
-    System.out.println("Dokumen Mahasiswa");
-    System.out.println("Formulir Pendaftaran Wisuda : " + formulirPendaftaranWisuda);
-    System.out.println("Formulir Biodata Mahasiswa : " + formulirBiodataMahasiswa);
-    System.out.println("Formulir Permohonan Bebas Pustaka" + formulirPermohonanBebasPustaka);
-    System.out.println("Formulir Bebas Laboratorium : " + formulirBebasLaboratorium);
-    System.out.println("Formulir Surat Ikut Serta Wisuda : " + formulirSuratIkutSertaWisuda);
-    System.out.println("Formulir Dokumen Wisuda : " + formulirDokumenWisuda);
-    System.out.println("Formulir Penyerahan Karya Ilmiah : " + formulirPenyerahanKaryaIlmiah);
+        System.out.println("Dokumen Mahasiswa");
+        System.out.println("Formulir Pendaftaran Wisuda : " + formulirPendaftaranWisuda);
+        System.out.println("Formulir Biodata Mahasiswa : " + formulirBiodataMahasiswa);
+        System.out.println("Formulir Permohonan Bebas Pustaka : " + formulirPermohonanBebasPustaka);
+        System.out.println("Formulir Bebas Laboratorium : " + formulirBebasLaboratorium);
+        System.out.println("Formulir Surat Ikut Serta Wisuda : " + formulirSuratIkutSertaWisuda);
+        System.out.println("Formulir Dokumen Wisuda : " + formulirDokumenWisuda);
+        System.out.println("Formulir Penyerahan Karya Ilmiah : " + formulirPenyerahanKaryaIlmiah);
     }
     
 }

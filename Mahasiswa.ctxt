@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.target=Mahasiswa
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ Mahasiswa\ here.\r\n\r\n\ @author\ (your\ name)\r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment1.params=username\ password\ role\ nama\ NPM\ programStudi\ jurusan\ fakultas\ noHp\ alamat\ namaAyah\ namaIbu\ totalSKSLulus\ ipk\ semesterLulus
+comment1.target=Mahasiswa(java.lang.String,\ java.lang.String,\ Role,\ java.lang.String,\ java.lang.String,\ java.lang.String,\ java.lang.String,\ java.lang.String,\ java.lang.String,\ java.lang.String,\ java.lang.String,\ java.lang.String,\ int,\ double,\ int)
+comment2.params=
+comment2.target=void\ displayDataMahasiswa()
+numComments=3

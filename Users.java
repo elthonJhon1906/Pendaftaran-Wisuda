@@ -1,4 +1,4 @@
-package User;
+ 
 
 
 /**
@@ -16,10 +16,10 @@ public class Users{
     private Role Role;
     
     public Users(String username, String password, Role Role){
-    this.id = idCounter++;
-    this.username = username;
-    this.password = password;
-    this.Role = Role;
+        this.id = idCounter++;
+        this.username = username;
+        this.password = password;
+        this.Role = Role;
     }
     
     
